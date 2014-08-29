@@ -29,7 +29,9 @@
 
 <div style="position: absolute; left: 50%;">
   <div id="game-icons">
+    <div id="buy-now"><a href="http://far-cry.ubi.com/fc-portal/en-GB/home/" target="_blank">Buy Now</a></div>
     <img src="game-icons.png" width="100%" height="auto" />
+    <div id="visit-site"><a href="https://www.ebgames.co.nz/any/any?q=far%20cry%203" target="_blank">Visit Site</a></div>
   </div>
 </div>
 
@@ -53,6 +55,8 @@
 </div>
 
 <div id="rock-site">
+
+  <div id="ad-click"></div>
   
 </div>
 
@@ -61,6 +65,10 @@
 <script>
 
 $( document ).ready(function() {
+  $( ".ad" ).fadeIn( 5000 );
+});
+
+$( "#ad-click" ).click(function() {
   $( ".ad" ).fadeIn( 5000 );
 });
 
